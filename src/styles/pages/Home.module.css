@@ -16,3 +16,18 @@
   align-content: center;
   margin-top: 3rem;
 }
+
+@media only screen and (max-width: 730px){
+  .container section{
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+   max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .container section{
+       max-width: 90%;
+  }
+}
